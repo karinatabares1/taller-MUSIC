@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#titulo{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 80px;
+    top: 20px;
+    font-family: sans-serif;
+
+}
+
+.container1{
+    background-image: url("../assets/images/angel-jimenez.jpg");
+    font-size: 90px;
+    background-position: center center;
+    padding: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.music{
+    font-family: sans-serif;
+    font-size: 55px;
+}
+.music1{
+    font-size: 55px;
+    font-family: sans-serif;
+    background: -webkit-linear-gradient(#fb4e5c, #ff00b7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    margin: 160px;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    margin: 160px;
+    flex-direction: row-reverse;
+    
+}
+
+.button{
+    background-color: #fb4e5c;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 60px;
+}
+
+.text1{
+    font-family: sans-serif;
+    line-height: 2.0;
+    text-align: justify;
+    margin: 0 20px; 
+}
+
+.container4{
+    background-image: url("../assets/images/john-raptis.png");
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+}
+
+
+.sub{
+    font-family: sans-serif;
+    font-size: 4rem;
+    margin: 10px 0px;
+    color: white;
+    margin: 40px 40px;
+}
+
+#text{
+        color: white;
+        font-family: sans-serif;
+        line-height: 2.0;
+        text-align: justify;
+}
+
+.guitarra{
+    max-width: 40%;
+    justify-content: flex-end;
+    margin: 40px 70px;
+}
+
+.pie {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    height: 500px;
+    position: relative;
+    background-color:rgb(236, 25, 78); 
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.table-column {
+    display: flex;
+    flex-direction: column;
+    margin: 80px;
+    font-family: sans-serif;
+}
+
+.cell {
+    color: white;
+    padding: 10px;
+}
+
+hr {
+    width: 100%;
+    border: none;
+    border-top: 1px solid white;
+    margin-bottom: 20px;
+
+}
+.final{
+    display: flex;
+    justify-content: space-around;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
